@@ -1,0 +1,35 @@
+body {
+  margin: 0;
+  background: #f8f9fa;
+}
+
+.app-container {
+  max-width: 640px;
+  margin: 2rem auto;
+  padding: 0 1rem;
+}
+
+.product-table {
+  width: 100%;
+  margin: 0 auto;
+  border-collapse: collapse;
+  background: #fff;
+}
+
+.product-table th,
+.product-table td {
+  padding: 0.75rem 1rem;
+  text-align: left;
+}
+
+.product-table thead th {
+  border-bottom: 2px solid #212529;
+}
+
+.product-table tbody td {
+  border-bottom: 1px solid #dee2e6;
+}
+
+.product-table tbody tr:last-child td {
+  border-bottom: 0;
+}
